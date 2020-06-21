@@ -30,7 +30,10 @@
             background-size: cover;
             background-repeat: no-repeat;
         }
-
+.img-icons {
+    width: 40%;
+    height: 40%;
+}
         i {
             color: green;
         }
@@ -45,11 +48,14 @@
         .foot {
             font-size: 30px;
         }
+        .positn {
+            margin-bottom: -20px;
+        }
 
         .centered {
             position: absolute;
-            top: 50%;
-            left: 50%;
+            top: 40%;
+            left: 40%;
             transform: translate(-50%, -50%);
         }
 
@@ -57,10 +63,7 @@
             background-color: black
         }
 
-        #tap {
-            color: green;
-
-        }
+        
     </style>
 </head>
 
@@ -81,10 +84,12 @@
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">  
+                      <i class="fa fa-navicon" style="color:#fff; font-size:28px;"></i>
+                </span>
             </button>
 
-            <div class="collapse navbar-collapse bg-white navbar-dark" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse  navbar-dark" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item ml-md-4">
                         <a class="nav-link  text-white small" href="#">Home <span class="sr-only">(current)</span></a>
@@ -105,13 +110,13 @@
                 </div>
             </div>
         </nav>
-        <div class="row d-flex my-md-5 mx-3">
+        <div class="row d-flex my-sm-5 mx-3">
             <div class="col-md-6 ml-3 ">
 
-                <h3 class="text-white my-md-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <h2 class="text-white my-sm-4 text-center text-md-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     <span class="text-success">
                         Children.</span>
-                </h3>
+                </h2>
                 <div class="row d-flex justify-content-start">
                     <div class="col-md-9">
                         <p class="text-muted small text-sm-center text-md-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -121,11 +126,11 @@
                         </p>
 
                         <div class="row d-flex justify-content-between mt-4">
-                            <div class="col-md-6 text-center my-2">
-                                <button class="btn bg-success text-white">Donate Now</button>
+                            <div class="col-md-6 text-center text-md-left my-2" >
+                                <button class="btn bg-success text-white" style="width: 150px;">Donate Now</button>
                             </div>
-                            <div class="col-md-6 text-center my-2">
-                                <button class="btn btn-outline-light px-4">Learn More</button>
+                            <div class="col-md-6 my-2 text-center text-md-left">
+                                <button class="btn btn-outline-light px-4" style="width: 150px;">Learn More</button>
                             </div>
                         </div>
                     </div>
@@ -135,32 +140,32 @@
         </div>
 
 
-        <div class="row text-white d-flex justify-content-between ">
-            <div class="col-4 text-white">
-                <div class="d-flex justify-content-start">
-
-
-                    <div class="col small">01</div>
-                    <div class="col small">02</div>
-                    <div class="col small">03</div>
-                </div>
-
-            </div>
-
-            <div class="col-4 text-white">
-                <div class="row">
-
-                    <div class="col small text-white">TW</div>
-                    <div class="col small">In</div>
-                    <div class="col small">Fb</div>
-                </div>
-
-            </div>
-        </div>
     </div>
-    <div class="container">
+            <div class="row text-white d-flex justify-content-between last" style="margin-top:-30px;">
+                <div class="col-4 text-white">
+                    <div class="d-flex justify-content-start">
+    
+    
+                        <div class="col small">01</div>
+                        <div class="col small">02</div>
+                        <div class="col small">03</div>
+                    </div>
+    
+                </div>
+    
+                <div class="col-4 text-white">
+                    <div class="row">
+    
+                        <div class="col small text-white">TW</div>
+                        <div class="col small">In</div>
+                        <div class="col small">Fb</div>
+                    </div>
+    
+                </div>
+            </div>
+    <div class="mx-5 mx-md-0">
         <div class="row bg-white d-flex justify-content-center text-center my-5">
-            <div class="col-4">
+            <div class="col-8 col-md-3">
                 <h3 class="text-success">Our Goals</h3>
                 <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -177,10 +182,9 @@
                 <div class="row justify-content-center">
                     <div class="col-md-12 col-sm-4">
                         <div>
-                            <img src="https://bit.ly/3dn8nzg" class="w-50" alt="#" id="tap">
+                            <img src="./images/Group (3).png" class=" small img-icons" alt="#" id="tap">
                         </div>
-                        <!-- <i class="fa fa-instagram fa-3x"></i> -->
-                        <h6>Lorem ipsum dolor sit </h6>
+                        <h6 class="mt-4 mb-4">Lorem ipsum dolor sit </h6>
                         <p class="small text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -192,12 +196,11 @@
             <div class="col-md-2">
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <!-- <i class="fa fa-apple fa-3x"> -->
                         <div>
-                            <img src="https://bit.ly/2AXKktw" class="w-50 bitly" alt="#">
+                            <img src="./images/harvest.png" class="small bitly fruits img-icons" alt="#">
                         </div>
                         </i>
-                        <h6>Lorem ipsum dolor sit </h6>
+                        <h6 class="mt-4 mb-4" >Lorem ipsum dolor sit </h6>
 
                         <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -209,10 +212,11 @@
 
             <div class="col-md-2">
                 <div class="row">
-                    <div class="col">
-                        <i class="fa fa-home fa-3x">
-                        </i>
-                        <h6>Lorem ipsum dolor sit </h6>
+                    <div class="col home">
+                        <!-- <i class="fa fa-home fa-3x">
+                        </i> -->
+                        <img src="./images/Group-2 (1).png"  class="img-icons" alt="">
+                        <h6 class="mt-4 mb-4">Lorem ipsum dolor sit </h6>
 
                         <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -224,10 +228,11 @@
             <div class="col-md-2">
                 <div class="row">
                     <div class="col">
-                        <i class="fa fa-book fa-3x">
+                        <!-- <i class="fa fa-book fa-3x">
 
-                        </i>
-                        <h6>Lorem ipsum dolor sit </h6>
+                        </i> -->
+                        <img src="./images/Group-1 (1).png" class="img-icons home" alt="">
+                        <h6 class="mt-4 mb-4">Lorem ipsum dolor sit </h6>
 
                         <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -239,89 +244,96 @@
 
 
         <div class="row bg-white d-flex justify-content-center text-center  mb-4 mt-4 Causes">
-            <div class="col-6">
+            <div class="col-8 col-md-3">
                 <h3 class="text-success">Our Causes</h3>
                 <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+
                 </p>
             </div>
 
         </div>
 
-        <div class="row row bg-white d-flex justify-content-around text-center first-images-row">
+        <div class="row row bg-white d-flex justify-content-around text-center first-images-row mx-3 mx-md-0">
 
-            <div class="col-md-5 p-5">
-                <div class="row">
-                    <div class="col baby">
-                        <img class="" style="width: 100%" src="./images/Rectangle 3.png" alt="#">
-
-                        <h6>Duis aute irure reprehender.</h6>
-                        <p class="text-left">
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-
-                        </p>
-                        <hr>
-
-                        <div class="row d-flex justify-content-between mb-4">
-                            <div class="col-5">
-                                Raised: $6200
+            
+            <div class="col-md-5 mb-5 ">
+                    <div class="row">
+                        <div class="col bg-light baby">
+                            <img class="" style="width: 100%" src="./images/Rectangle 3.png" alt="#">
+    
+                            <h6>Duis aute irure reprehender.</h6>
+                            <p class="text-left">
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <hr>
+    
+                            <div class="row d-flex justify-content-between mb-4">
+                                <div class="col-5">
+                                    Raised: $6200
+                                </div>
+    
+                                <div class="col-5">
+                                    Raised: $9000
+                                </div>
                             </div>
-
-                            <div class="col-5">
-                                Raised: $6200
+    
+                            <div class="row d-flex justify-content-between mb-5">
+                                <div class="col-5">
+                                    <button class="btn bg-success text-white" type="submit">Donate Now</button>
+                                </div>
+    
+                                <div class="col-5">
+                                    <button class="btn btn-outline-success " type="submit">Learn More</button>
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="row d-flex justify-content-between">
-                            <div class="col-5">
-                                <button class="btn bg-success text-white" type="submit">Donate Now</button>
-                            </div>
-
-                            <div class="col-5">
-                                <button class="btn btn-outline-success " type="submit">Learn More</button>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-5 p-5">
-                <div class="row">
-                    <div class="col ">
-                        <img class=" mb-3" style="width: 100%" src="./images/Rectangle 3-1.png" alt="#">
-                        <h6 class="">Duis aute irure reprehender.</h6>
-                        <p class="text-left">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                        <hr>
-
-                        <div class="row d-flex justify-content-around mb-4">
-                            <div class="col-5">
-                                Raised: $6200
-                            </div>
-
-                            <div class="col-5">
-                                Raised: $6200
-                            </div>
-                        </div>
-
-                        <div class="row d-flex justify-content-between">
-                            <div class="col-5">
-                                <button class="btn bg-success text-white" type="submit">Donate Now</button>
-                            </div>
-
-                            <div class="col-5">
-                                <button class="btn btn-outline-success " type="submit">Learn More</button>
-                            </div>
+    
+    
                         </div>
                     </div>
                 </div>
-            </div>
+    
+
+          
+            <div class="col-md-5 mb-5 ">
+                    <div class="row">
+                        <div class="col boy bg-light">
+                            <img class="" style="width: 100%" src="./images/Rectangle 3-1.png" alt="#">
+    
+                            <h6>Duis aute irure reprehender.</h6>
+                            <p class="text-left">
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <hr>
+    
+                            <div class="row d-flex justify-content-between mb-4">
+                                <div class="col-5 boy">
+                                    Raised: $12200
+                                </div>
+    
+                                <div class="col-5">
+                                    Raised: $2922000
+                                </div>
+                            </div>
+    
+                            <div class="row d-flex justify-content-between mb-5">
+                                <div class="col-5">
+                                    <button class="btn bg-success text-white" type="submit">Donate Now</button>
+                                </div>
+    
+                                <div class="col-5">
+                                    <button class="btn btn-outline-success " type="submit">Learn More</button>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                </div>
+    
         </div>
 
 
@@ -329,76 +341,83 @@
 
         <div class="row row bg-white d-flex justify-content-around text-center second-images-row">
 
-            <div class="col-md-5 p-5">
-                <div class="row">
-                    <div class="col baby">
-                        <img class="" style="width: 100%" src="./images/Rectangle 3-2.png" alt="#">
-
-                        <h6>Duis aute irure reprehender.</h6>
-                        <p class="text-left">
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                        <hr>
-
-                        <div class="row d-flex justify-content-between mb-4">
-                            <div class="col-5">
-                                Raised: $6200
+           
+            <div class="col-md-5 mb-5 ">
+                    <div class="row">
+                        <div class="col bg-light third-img">
+                            <img class="" style="width: 100%" src="./images/Rectangle 3-2.png" alt="#">
+    
+                            <h6>Duis aute irure reprehender.</h6>
+                            <p class="text-left">
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <hr>
+    
+                            <div class="row d-flex justify-content-between mb-4">
+                                <div class="col-5">
+                                    Raised: $12200
+                                </div>
+    
+                                <div class="col-5">
+                                    Raised: $2922000
+                                </div>
                             </div>
-
-                            <div class="col-5">
-                                Raised: $6200
+    
+                            <div class="row d-flex justify-content-between mb-5">
+                                <div class="col-5">
+                                    <button class="btn bg-success text-white" type="submit">Donate Now</button>
+                                </div>
+    
+                                <div class="col-5">
+                                    <button class="btn btn-outline-success " type="submit">Learn More</button>
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="row d-flex justify-content-between">
-                            <div class="col-5">
-                                <button class="btn bg-success text-white" type="submit">Donate Now</button>
-                            </div>
-
-                            <div class="col-5">
-                                <button class="btn btn-outline-success " type="submit">Learn More</button>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-5 p-5">
-                <div class="row">
-                    <div class="col boy">
-                        <img class=" mb-3" style="width: 100%" src="./images/Rectangle 3 (1).png" alt="#">
-                        <h6 class="">Duis aute irure reprehender.</h6>
-                        <p class="text-left">
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                        <hr>
-
-                        <div class="row d-flex justify-content-around mb-4">
-                            <div class="col-5">
-                                Raised: $6200
-                            </div>
-
-                            <div class="col-5">
-                                Raised: $6200
-                            </div>
-                        </div>
-
-                        <div class="row d-flex justify-content-between">
-                            <div class="col-5">
-                                <button class="btn bg-success text-white" type="submit">Donate Now</button>
-                            </div>
-
-                            <div class="col-5">
-                                <button class="btn btn-outline-success " type="submit">Learn More</button>
-                            </div>
+    
+    
                         </div>
                     </div>
                 </div>
-            </div>
+    
+
+           
+            <div class="col-md-5 mb-5 ">
+                    <div class="row">
+                        <div class="col bg-light hospital">
+                            <img class="" style="width: 100%" src="./images/Rectangle 3 (1).png" alt="#">
+    
+                            <h6>Duis aute irure reprehender.</h6>
+                            <p class="text-left">
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <hr>
+    
+                            <div class="row d-flex justify-content-between mb-4">
+                                <div class="col-5">
+                                    Raised: $12200
+                                </div>
+    
+                                <div class="col-5">
+                                    Raised: $2922000
+                                </div>
+                            </div>
+    
+                            <div class="row d-flex justify-content-between mb-5">
+                                <div class="col-5">
+                                    <button class="btn bg-success text-white" type="submit">Donate Now</button>
+                                </div>
+    
+                                <div class="col-5">
+                                    <button class="btn btn-outline-success " type="submit">Learn More</button>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                </div>
+    
         </div>
 
 
@@ -447,7 +466,7 @@
 
     </div>
 
-    <div class="footer">
+    <div class="footer pb-3">
 
         <div class="row mb-5 pt-4 ">
             <div class="col d-flex justify-content-center">
@@ -455,31 +474,29 @@
             </div>
         </div>
 
-        <div class="row d-flex justify-content-around">
+        <div class="row d-flex justify-content-center">
             <div class="col-5">
-
                 <input type="text" class="form-control bg-transparent " id="usr" placeholder="Enter Email ">
-
             </div>
-            <div class="col-5">
+            <div class="col-2">
                 <h1 class="text-white" style="font-size: 30px;">subscribe</h1>
             </div>
         </div>
 
         <div class="row mt-3 ml-1 d-flex justify-content-between mt-5">
-            <div class="col-3">
+            <div class="col-3 text-center" style="margin: auto 0;">
                 <i class="fa fa-home fa-3x text-success"></i>
-                <h1 class="text-white foot">ands <br>of <br> Eleos</h1>
+                <h1 class="text-white foot">Hands <br>of <br> Eleos</h1>
             </div>
-            <div class="col-3 ">
-                <p class="text-white">Home</p>
-                <p class="text-muted">About</p>
-                <p class="text-muted">Our Causes</p>
-                <p class="text-muted">Contact</p>
+            <div class="col-3 text-center">
+                <p class="text-white small mt-4">Home</p>
+                <p class="text-muted small mt-4">About</p>
+                <p class="text-muted small mt-4">Our Causes</p>
+                <p class="text-muted small mt-4">Contact</p>
 
             </div>
-            <div class="col-3 text-white text-center">
-                <p>North River <br> Plot 43, Essien Way <br> Southhampton <br>London</p>
+            <div class="col-3 text-white text-center" style="margin: auto 0;">
+                <p class="small">North River <br> Plot 43, Essien Way <br> Southhampton <br>London</p>
             </div>
 
         </div>

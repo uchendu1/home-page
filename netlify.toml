@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 [build]
  command = "CI= "
-=======
->>>>>>> 15453ad677d0789627fccd97f1d88c995ba37ad5
 [[redirects]]
  from = "/*"
  to = "/index.html"
